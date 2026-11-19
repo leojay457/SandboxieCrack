@@ -2,6 +2,8 @@ name: Sandboxie 1.16.4 x64
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["build/1.16.4-x64"]
 
 permissions:
   contents: read
